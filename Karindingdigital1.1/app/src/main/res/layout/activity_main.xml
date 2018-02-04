@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context="mff.karinding.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Silahkan Login Terlebih Dahulu"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:id="@+id/btn_secret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/btn_setting"
+        android:layout_alignEnd="@+id/btn_setting"></Button>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="SAMSUNG GALAXY ONLY"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:text="Security Setting"
+        android:layout_below="@+id/btn_secret"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="mff.karinding.Tonggeret">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Karinding Tonggeret"
+        android:textAlignment="center"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/high"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/high"
+        android:onClick="play_high"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/low"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/low"
+        android:onClick="play_low"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="Back" />
+
+</LinearLayout>
